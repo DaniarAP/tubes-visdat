@@ -19,7 +19,7 @@ END = "2023-05-19"
 
 st.title('Tubes Visdat Daniar Abi')
 
-stocks = ('BBCA.JK', 'BBNI.JK', 'BBRI.JK')
+stocks = ('BBCA.JK', 'BMRI.JK', 'BBRI.JK')
 selected_stock = st.selectbox('Pilih dataset ', stocks)
 
 
