@@ -23,7 +23,7 @@ stocks = ('BBCA.JK', 'BBNI.JK', 'BBRI.JK')
 selected_stock = st.selectbox('Pilih dataset ', stocks)
 
 
-@st.cache_data
+@st.cache
 def load_data(ticker):
     data = yf.download(ticker, START, END)
     data.reset_index(inplace=True)
